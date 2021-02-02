@@ -1,0 +1,57 @@
+/* font-family: 'Coda Caption', sans-serif;
+font-family: 'Eater', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Gloria Hallelujah', cursive; */
+
+
+
+
+
+body {
+  background-image: url("forest.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Eater', cursive;
+  text-align: center;
+  color: cornsilk;
+  font-size: 4em;
+  text-shadow: red 2px 2px 2px, yellow 4px 4px 1px;
+}
+
+div#button {
+  background-color: red;
+  width: 340px;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  padding: 15px 0px;
+  transition: all 1.5s;
+}
+
+div#button:hover {
+  background-color: yellow;
+  font-size: 2.3em;
+  cursor: pointer;
+}
+
+h2#result {
+  font-family: 'Coda Caption', sans-serif;
+  font-size: 3.5em;
+  text-align: center;
+  color: greenyellow;
+  text-shadow: white 2px 2px 2px, black 3px 3px 1px;
+}
+
+h2#death {
+  font-family: 'Freckle Face', sans-serif;
+  font-size: 3.5em;
+  text-align: center;
+  color: greenyellow;
+  text-shadow: white 2px 2px 2px, black 3px 3px 1px;
+}
